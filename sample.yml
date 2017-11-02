@@ -1,6 +1,6 @@
 - hosts: localhost
   tasks:
-  - name: Install lynx on App Servers
+  - name: Install vim on App Servers
     yum: pkg=vim  state=installed update_cache=true
 
 
