@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('chkout') {
       steps {
-        sh 'git clone https://github.com/gkdba87/ansible'
+        sh 'git clone https://github.com/gkdba87/ansible.git'
       }
     }
   }
